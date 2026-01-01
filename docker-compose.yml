@@ -1,0 +1,10 @@
+services:
+  tests:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: testme-load-tests:latest
+    network_mode: host
+    environment:
+      - UV_NO_CACHE=1
+

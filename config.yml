@@ -1,0 +1,8 @@
+locustfile: locustfile.py
+# Using host network mode in docker-compose, so 127.0.0.1 works both locally and in Docker
+host: http://127.0.0.1:8000
+users: 3
+spawn-rate: 6
+headless: true
+run-time: 15s
+
