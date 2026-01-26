@@ -5,7 +5,7 @@ description = "Load tests for TestMe API"
 readme = "README.md"
 requires-python = ">=3.11,<4.0"
 authors = [
-    { name = "Serhii Smetanskyi", email = "mail@serhiismetanskyi.cv" },
+    { name = "Serhii Smetanskyi", email = "smetanskyi@proton.me" },
 ]
 dependencies = [
     "locust",
